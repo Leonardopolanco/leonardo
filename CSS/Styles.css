@@ -1,0 +1,120 @@
+ul.sdt_menu{
+	padding: 0;
+	list-style: none;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	font-size: 15px;
+	margin-top: 0;
+	margin-right: 0px;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+ul.sdt_menu a{
+	text-decoration:none;
+	outline:none;
+}
+ul.sdt_menu li{
+	width: 200px;
+	height: 279px;
+	position: relative;
+	cursor: pointer;
+	margin-left: 200px;
+	background-image: url(../images/fondo1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+ul.sdt_menu li > a{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 85px;
+	z-index: 12;
+
+	
+}
+ul.sdt_menu li a img{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	bottom: 0px;
+	left: 85px;
+	z-index: 100;
+	
+}
+ul.sdt_menu li span.sdt_wrap{
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	z-index: 15;
+}
+ul.sdt_menu li span.sdt_active{
+	position: absolute;
+	top: 0px;
+	width: 200px;
+	height: 0px;
+	left: 0px;
+	z-index: 14;
+	margin: 0px;
+	background-image: url(../images/fondo_menu.png);
+	background-repeat: no-repeat;
+}
+ul.sdt_menu li span span.sdt_link,
+ul.sdt_menu li span span.sdt_descr,
+ul.sdt_menu li div.sdt_box a{
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+ul.sdt_menu li span span.sdt_link{
+	color: #fff;
+	font-size: 30px;
+	float: left;
+	clear: both;
+	font-weight: bold;
+}
+ul.sdt_menu li span span.sdt_descr{
+	color: #1D66B3;
+	float: left;
+	clear: both;
+	width: 200px; /*For dumbass IE7*/
+	font-size: 10px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+ul.sdt_menu li div.sdt_box{
+	display: block;
+	position: absolute;
+	width: 170px;
+	overflow: hidden;
+	height: 90px;
+	top: 85px;
+	left: 0px;
+	display: none;
+	z-index: 1000;
+	background-color: #333;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid #333;
+}
+
+ul.sdt_menu li div.sdt_box a{
+	line-height: 30px;
+	color: #FFFFFF;
+	width: 170px;
+	float: right;
+	margin-left: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+ul.sdt_menu li div.sdt_box a:first-child{
+	float: right;
+	width: 170px;
+}
+ul.sdt_menu li div.sdt_box a:hover{
+	color: #FFF;
+	background-color: #666;
+	width: 170px;
+	float: right;
+}
+
