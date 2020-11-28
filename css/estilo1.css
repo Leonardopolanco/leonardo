@@ -1,0 +1,452 @@
+	body{
+	font-family: Arial;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #FFF;
+	
+}
+.home{
+	display: flex;
+	flex-wrap: wrap;
+}
+.in-flex{
+	flex: 1;
+	min-width: 250px;
+}
+.in-flex: first-child {
+	flex: 2;
+	padding: 25px;
+	background-color: #fff;
+	margin: 20px;
+	margin-bottom: 0px;
+}
+.in-flex div {
+	padding: 25px;
+	background-color: #fff;
+	margin: 20px;
+}
+#gif01 {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 0;
+	text-align: center;
+	right: 0px;
+	bottom: 0px;
+	padding: 0px;
+	visibility: hidden;
+	z-index: 3000;
+	float: left;
+	margin-top: 150px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(../images/loading2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#gif02 {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 0;
+	text-align: center;
+	right: 0px;
+	bottom: 0px;
+	padding: 0px;
+	visibility: hidden;
+	z-index: 3000;
+	float: left;
+	margin-top: 150px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(../images/loading2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#gif03 {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 0;
+	text-align: center;
+	right: 0px;
+	bottom: 0px;
+	padding: 0px;
+	visibility: hidden;
+	z-index: 3000;
+	float: left;
+	margin-top: 150px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(../images/loading2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#gif04 {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 0;
+	text-align: center;
+	right: 0px;
+	bottom: 0px;
+	padding: 0px;
+	visibility: hidden;
+	z-index: 3000;
+	float: left;
+	margin-top: 150px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(../images/loading2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#gif05 {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 0;
+	text-align: center;
+	right: 0px;
+	bottom: 0px;
+	padding: 0px;
+	visibility: hidden;
+	z-index: 3000;
+	float: left;
+	margin-top: 150px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(../images/loading2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#gif06 {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 0;
+	text-align: center;
+	right: 0px;
+	bottom: 0px;
+	padding: 0px;
+	visibility: hidden;
+	z-index: 3000;
+	float: left;
+	margin-top: 150px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(../images/loading2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#contenedor {
+	margin: 0px;
+	width: auto;
+	height: auto;
+}
+#cabecera {
+	height: 142px;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+#contenido_cabecera {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 950px;
+	height: 142px;
+	background-image: url(../images/fondo_cabecera.png);
+	background-repeat: no-repeat;
+}
+#menu_cabecera {
+	height: 50px;
+	float: left;
+	width: 470px;
+}
+
+#menu_cabecera a:link {
+	font-size: 14px;
+	color: #B2B2B2;
+	text-decoration: none;
+	font-weight: lighter;
+	font-variant: small-caps;
+}
+#menu_cabecera a:visited {
+	font-size: 14px;
+	color: #B2B2B2;
+	text-decoration: none;
+	font-weight: lighter;
+	font-variant: small-caps;
+}
+#menu_cabecera a:hover {
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: lighter;
+	font-variant: small-caps;
+}
+#menu_cabecera ul {
+	padding: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: right;
+	margin-top: 15px;
+}
+#menu_cabecera li  {
+	display: inline;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+#logos {
+	height: 50px;
+	width: 430px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+#logos p {
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+	line-height: 13px;
+	font-weight: bold;
+}
+
+#menu_central {
+	height: 390px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 170px;
+	width: 800px;
+}
+#contenedor_pie {
+	height: 260px;
+	width: auto;
+	background-image: url(../images/repite_pie.png);
+	background-repeat: repeat-x;
+}
+
+#pie {
+	height: 260px;
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+}
+
+#logos_pie {
+	margin-right: auto;
+	margin-left: auto;
+	color: #333333;
+	font-size: 12px;
+}
+#logos_pie li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+#financiadores {
+	height: 140px;
+	width: 170px;
+	float: left;
+	margin-top: 70px;
+}
+
+#mapa {
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 920px;
+	padding-top: 80px;
+}
+#mapa a:link {
+	color: #333333;
+	text-decoration: none;
+}
+#mapa a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+#mapa a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+#cole  {
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333333;
+	width: 180px;
+	position: relative;
+	font-size: 11px;
+}
+#casa  {
+	float: left;
+	width: 160px;
+	font-size: 11px;
+}
+
+#accesibilidad {
+	width: 740px;
+	color: #98999C;
+	font-size: 12px;
+	height: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 145px;
+}
+
+#accesibilidad ul {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+#accesibilidad li {
+	display: inline;
+	color: #98999C;
+	margin: 0px;
+	padding: 0px;
+}
+#accesibilidad a:link {
+	color: #98999C;
+	text-decoration: none;
+}
+#accesibilidad  a:visited {
+	color: #98999C;
+	text-decoration: none;
+}
+#accesibilidad  a:hover {
+	color: #98999C;
+	text-decoration: underline;
+}
+
+
+			span.reference{
+				position:fixed;
+				left:10px;
+				bottom:10px;
+				font-size:12px;
+			}
+			span.reference a{
+				color:#aaa;
+				text-transform:uppercase;
+				text-decoration:none;
+				text-shadow:1px 1px 1px #000;
+				margin-right:30px;
+			}
+			span.reference a:hover{
+				color:#ddd;
+			}
+			ul.sdt_menu{
+	margin-top: 90px;
+			}
+			h1.title{
+	text-indent: -9000px;
+	background: transparent url(title.png) no-repeat top left;
+	width: 633px;
+	height: 69px;
+			}
+A.ssmItems:link		{
+	color: #666;
+	text-decoration: none;
+}
+
+A.ssmItems:hover	{
+	color: #666;
+	text-decoration: none;
+}
+A.ssmItems:active	{
+	color: #666;
+	text-decoration: none;
+}
+A.ssmItems:visited	{
+	color: #666;
+	text-decoration: none;
+}
+.ddimgtooltip{
+	display: none;
+	position: absolute;
+	z-index: 10000;
+}
+
+
+.ddpanel .ddpanelcontent{ /*CSS for "content" DIV of Drop Down Panel*/
+	color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/fondo_descarga.png);
+/*Do NOT add any "padding" or "margin" properties here! Any padding/margin should be added to your content's container within this DIV instead */
+}
+
+.ddpanel .ddpaneltab{ /*CSS for "toggle" tab DIV of Drop Down Panel*/
+	margin-right: 10px;
+	font: normal 12px Arial;
+	margin-bottom: 0px;
+}
+
+.ddpanel .ddpaneltab a{ /*"toggle" tab related CSS*/
+	float: left;
+	color: white; /*background of toggle tab*/
+	text-decoration: none;
+	letter-spacing: 1px;
+	position: absolute;
+	background-image: url(../images/descarga.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 80px;
+	width: 110px;
+	margin-top: 70px;
+}
+
+.ddpanel .ddpaneltab a span{ /*"toggle" tab related CSS*/
+	float: left;
+	display: block;
+	background: transparent url(toggleright.gif) no-repeat right bottom;
+	cursor: pointer;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+
+.ddpanel .ddpaneltab a span img.pointerimage{ /*CSS for pointer image within toggle tab*/
+margin-top: 2px;
+margin-left: 5px;
+}
+
+.ddpanel .ddpaneltab a:hover{ /*"toggle" tab related CSS*/
+	background-image: url(../images/descarga_sobre.png);
+
+}
+
+.ddpanel .ddpaneltab a:active, .ddpanel .ddpaneltab a:focus{ /*"toggle" tab related CSS*/
+outline: 0;
+}
+
+.ddpanel .ddpaneltab a:hover span{ /*"toggle" tab related CSS*/
+background-color: transparent;
+}
